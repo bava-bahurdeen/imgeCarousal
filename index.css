@@ -91,7 +91,14 @@ bottom: 400px;
     background-color: darkgray;
     clip-path: circle(50%);
     cursor: pointer;
+    transition: 1s;
+}
+.dot:hover{
+    background-color: rgb(44, 39, 39);
 }
 .active{
     background-color: black;
+}
+.fade{
+    animation: fade linear infinite
 }
