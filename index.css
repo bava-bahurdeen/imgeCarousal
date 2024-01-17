@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+.main-container{
+width: 100%;
+display: flex;
+overflow: hidden;
+   
+}
+.container{
+
+display: flex;
+transition: 2s;
+}
+
+.one{
+    width: 100vw;
+    position: relative;
+    height: 500px;  
+}
+.number{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+}
+.cap-text{
+    position: absolute;
+    bottom: 60px;
+    left:600px; 
+    color: white;
+    font-size: 24px;
+}
+.two{
+    width: 100vw;
+    position: relative;
+    height: 500px;
+   
+}
+.three{
+    width: 100vw;
+    position: relative;
+    height: 500px;
+    
+}
+img{
+    width: 100%;
+}
+.scroll-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  overflow: scroll;
+}
+
+.scroll-container::-webkit-scrollbar{
+    appearance: none;
+}
+h1{
+    width: 100px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60rem;
+   position: absolute;
+  left: 180px;
+bottom: 400px;
+}
+.buttons>button{
+    all: unset;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.buttons>button>img{
+        width: 30px;
+}
+.dots{
+    display: flex;
+    gap:10px;
+    margin-left: 640px;
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    background-color: darkgray;
+    clip-path: circle(50%);
+    cursor: pointer;
+}
+.active{
+    background-color: black;
+}
