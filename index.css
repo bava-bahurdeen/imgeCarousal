@@ -65,11 +65,11 @@ h1{
 }
 .buttons{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 60rem;
+    gap: 80rem;
    position: absolute;
-  left: 180px;
+  left: 10px;
 bottom: 400px;
 }
 .buttons>button{
